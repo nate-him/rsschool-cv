@@ -6,4 +6,20 @@
 * __GitHub:__ [nate_him](https://github.com/nate-him)
 * __Telegram:__ [Nate_him](https://t.me/Nate_him)
 ----------------------
+
 ## About Me
+----------------------
+
+## Skills
+----------------------
+
+## Code Examples
+----------------------
+
+## Education
+Brest State A. Pushkin University
+    *
+----------------------
+
+## Languages
+----------------------
