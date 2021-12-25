@@ -18,8 +18,10 @@
 
 ## Education
 Brest State A. Pushkin University
-    *
+* Economic cybernetics
 ----------------------
 
 ## Languages
+* Russian
+* English - Beginner
 ----------------------
