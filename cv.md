@@ -9,12 +9,26 @@
 
 ## About Me
 ----------------------
+I want to learn something new for myself and evolve in the field of web development.
 
 ## Skills
 ----------------------
+* HTML
+* CSS
+* JavaScript
+* Git/GitHub
+* Photoshop
 
 ## Code Examples
 ----------------------
+Compare the cells of the chessboard for the same color:
+'''
+x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+if (x1 % 2 == y1 % 2) == (x2 % 2 == y2 % 2):
+    print ('YES')
+else:
+    print('NO')
+'''
 
 ## Education
 Brest State A. Pushkin University
