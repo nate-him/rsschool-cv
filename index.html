@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/f100284b1f.js"></script>
+</head>
+<body>
+<div class="two-columns">
+    <aside class="contact-information">
+        <header class="foto">
+            <img src="foto.jpg" alt="Natallia Astrouskaya">
+            <h1>Natallia Astrouskaya</h1>
+        </header>
+        <section class="contacts">
+            <h3>Junior Front-end Developer</h3>
+            <ul>
+                <li><img class="icon" src="icons/gmail.svg" alt="gmail"><a href="mailto:nathalihim@gmail.com">nathalihim@gmail.com</a></li>
+                <li><img class="icon" src="icons/phone.svg" alt="phone"><a href="tel:+375336427073">+37533 6427073</a></li>
+                <li><img class="icon" src="icons/discord.svg" alt="discord"><a href="https://discord.gg/axygCrSu">nate-him</a></li>
+                <li><img class="icon" src="icons/maps.svg" alt="maps">Brest, Belarus</li>
+            </ul>
+        </section>
+    </aside>
+    
+    <main class="main-window">
+        <nav>
+            <ul class="nav">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#language">Language</a></li>
+                <li><a class="no-border-rigth" href="#code">Code Examples</a></li>
+            </ul>
+        </nav>
+        <header class="about-me" id="about-me">
+            <h2>About Me</h2>
+            <p>I want to learn something new for myself and evolve in the field of web development.</p>
+        </header>
+        <div class="skills-experience">
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git/GitHub</li>
+                    <li>Photoshop</li>
+                </ul>
+            </section>
+            <section class="experience" id="experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li><a href="https://nate-him.github.io/rsschool-cv/cv">CV#1. Markdown & Git</a></li>
+                    <li><a href="https://nate-him.github.io/rsschool-cv/">CV#2. HTML, CSS & Git Basics</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="education-language">
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <p>Brest State A. Pushkin University</p>
+                <ul>
+                    <li>Economic cybernetics</li>
+                </ul>
+            </section>
+            <section class="language" id="language">
+                <h2>Language</h2>
+                <ul>
+                    <li>Russian</li>
+                    <li>English - Beginner</li>
+                </ul>
+            </section>
+        </div>
+        <section class="code" id="code">
+            <h2>Code Examples</h2>
+            <p>Compare the cells of the chessboard for the same color:</p>
+<pre>
+<code>
+    x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+    if (x1 % 2 == y1 % 2) == (x2 % 2 == y2 % 2):
+        print ('YES')
+    else:
+        print('NO')
+</code>
+</pre>
+        </section>
+
+    </main>
+</div>
+<footer class="footer">
+    <a href="https://github.com/nate-him" target="_blank"><img class="footer-icon" src="icons/github.svg" alt="github"></a>
+    <a href="https://rs.school/js/" target="_blank"><img class="footer-icon" src="icons/rsschool.svg" alt="rsschool"></a>
+    <p>© 2022</p>
+</footer>
+</body>
+</html>
